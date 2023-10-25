@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias Galactica</title>
+    <link rel="stylesheet" href="style/card.css">
+    <script src="src/components/CardNews.js" defer></script> <!-- O uso de defer permite que os scripts sejam carregados em segundo plano, mas executados em ordem após o carregamento completo do DOM, garantindo que seu código tenha acesso ao DOM quando for executado-->
+    <script src="src/components/TituloDinamico.js" defer></script>
+</head>
+<body>
+    
+
+    <div class="app-root">
+    
+
+    <card-news
+    autor="dudurama"
+    title="quer virar o kevin levrone?"
+    link="https://www.youtube.com/watch?v=Lcj4JJnN9iw"
+    photo="img/levrone.jpg"
+    contet="dudurama mostra como voce pode virar o kevin levrone em 2 meses"
+    >
+
+</card-news>
+
+<card-news  autor="Felipe" title="Darth Vader Contrata" link-url="www.google.com" photo="assets/asset-vader.png" contet="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."></card-news>
+
+<card-news title="Yoda convence replubica a utilizar components" link-url="www.google.com/yoda" contet="Yoda se pronuncia e choca a republica."></card-news>
+
+<card-news title="Yoda convence replubica a utilizar components" link-url="www.google.com/yoda" contet="Yoda se pronuncia e choca a republica."></card-news>
+
+</body>
+</html>
