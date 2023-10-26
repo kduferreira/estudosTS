@@ -1,7 +1,7 @@
 
 //tipos primitivos string, number e boolean
 let nome: string = "eduardo"
-let idade: number = 23
+let idade: number = 22
 let altura: number = 1.92
 let serHumano: boolean = true 
 
